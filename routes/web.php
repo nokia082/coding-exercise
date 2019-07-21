@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'JobController@index');
+Route::get('/add', 'JobController@add');
+
